@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Twiter</title>
+   </head>
+   <body>
+    <h2 align=center>Twiter</h3>
+    <form  id="granPadre" action="#" method="post">
+    <table>
+      <tr>
+        <td>
+        <textarea id="contenedorTwiter" name="texto" rows="10" cols="80" placeholder="Cómo te sientes hoy??"></textarea>
+        </td>
+        <td>
+        <input type="text"  id="contadorCAracter" name="caracteres" maxlength="140" placeholder="contador"/>
+        </td>
+        <td>De<input type="text" id="autor" placeholder="nombre"/>
+        </td>
+        <td>
+        <input type="button"  onclick="crear()" value="Twitear!!"/>
+        </td>
+     </tr>
+    </table>
+    </form>
+    <script src="js/main.js"></script>
+  </body>
+</html>
